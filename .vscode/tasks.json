@@ -57,42 +57,6 @@
     },
     {
       "type": "shell",
-      "label": "Spriggit Dump Datafiles To Yaml",
-      "command": "${workspaceFolder}/Tools/SpriggitDumpDatabaseToYaml.ps1",
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "presentation": {
-        "echo": true,
-        "reveal": "always",
-        "focus": false,
-        "panel": "dedicated",
-        "showReuseMessage": false,
-        "clear": true
-      },
-      "group": "build",
-      "problemMatcher": []
-    },
-    {
-      "type": "shell",
-      "label": "Spriggit Assemble Yaml Into Datafiles",
-      "command": "${workspaceFolder}/Tools/SpriggitAssembleDatabaseFromYaml.ps1",
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "presentation": {
-        "echo": true,
-        "reveal": "always",
-        "focus": false,
-        "panel": "dedicated",
-        "showReuseMessage": false,
-        "clear": true
-      },
-      "group": "build",
-      "problemMatcher": []
-    },
-    {
-      "type": "shell",
       "label": "Create BA2 Archives",
       "command": "${workspaceFolder}/Tools/createPackages.ps1",
       "options": {
